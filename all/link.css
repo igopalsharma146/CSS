@@ -1,0 +1,19 @@
+SPAN{
+    BACKGROUND-color: blue;
+    color:WHITE;
+    font-size: 30PX;
+}
+BODY{
+    background-color: chartreuse;
+}
+h1{
+    color: #9932cc;
+    font-size: 30PX;
+}
+P{
+    font-size: 25PX;
+}
+H3{
+    color: rgb(242, 3, 3);
+    font-size: 20PX;
+}

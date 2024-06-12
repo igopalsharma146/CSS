@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        #one{
+            position: static;
+            top:10px;
+            bottom: 20px;
+            left: 10px;
+        }
+        #two{
+            position: relative;
+            top:10px;
+            left: 10px;
+        }
+        #three{
+            position: absolute;
+            top: 30px;
+            left: 40px;
+        }
+        #four{
+            position: fixed;
+            right: 10px;
+            bottom: 20px;
+        }
+        #five{
+            position: sticky;
+            z-index: -2;
+            top: 100px;
+            right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>positional in html.</h1>
+    <div id="one" style="background-color: red;" >box1</div>
+    <div id="two" style="background-color: yellow;">box2</div>
+    <div id="three" style="background-color: green;">box3</div>
+    <div id="four" style="background-color: blue;">box4</div>
+    <div id="five" style="background-color: pink;">box5</div>
+</body>
+</html>

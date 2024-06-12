@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.header{
+    background-color: orangered;
+    width: 200px;
+    height: 60px;
+}
+.mediam{
+    background-color: white;
+    width: 200px;
+    height: 60px;
+}
+.content{
+    border-radius: 60px;
+    border: 1px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    margin:0 auto;
+}
+    .content .line{
+        height: 100%;
+        width: 1px;
+        display: inline-block;
+        left: 50%;
+        position: absolute;
+        background-color: darkblue;
+    }
+.line{
+    rotate: 15%;
+    background-color: blue;
+}
+.footer{
+    background-color:green;
+    width: 200px;
+    height: 60px;
+}

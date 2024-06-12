@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            border: 2px solid black;
+            /*transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: steps(3);
+            transition-delay: 1s;*/
+            transition: all 1s linear 0ms;
+            margin: 50px 30px;
+            transform: rotate(45deg);
+        }
+        div:hover{
+            background-color: blue;
+            color: white;
+            font-size: 25px;
+        }
+
+        div:active{
+            background-color: red;
+            color: white;
+            transition-duration: 4ms;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">this is a box1.</div>
+</body>
+</html>

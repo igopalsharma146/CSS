@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            /*animation-name: gopal;
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;*/
+            animation: gopal 3s linear 0s infinite normal;
+        }
+
+        @keyframes gopal
+        {
+            0%  {
+                    left:0px;
+                    background-color: aqua;
+                }
+                50%{
+                    background-color: blue;
+                    color: white;
+                }
+            100% {
+                left:650px;
+                background-color: red;
+                color: white;
+                }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="one">this is a box1.</div>
+</body>
+</html>

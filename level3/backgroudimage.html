@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        #one{
+            position: static;
+            top:10px;
+            bottom: 20px;
+            left: 10px;
+            background-image: url("cat.jpg");
+            background-size: cover;
+        }
+        #two{
+            position: relative;
+            top:10px;
+            left: 10px;
+            z-index: 1;
+        }
+        #three{
+            position: absolute;
+            top: 30px;
+        }
+        #four{
+            position: fixed;
+            right: 10px;
+            bottom: 20px;
+        }
+        body{
+            background-image: url("cat.jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>positional in html.</h1>
+    <div id="one" style="background-color: red;" >box1</div>
+    <div id="two" style="background-color: yellow;">box2</div>
+    <div id="three" style="background-color: green;">box3</div>
+    <div id="four" style="background-color: blue;">box4</div>
+</body>
+</html>
